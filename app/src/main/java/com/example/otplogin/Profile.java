@@ -274,5 +274,8 @@ public class Profile extends AppCompatActivity {
 
     }
 
+    public void Search(View view) {
+        startActivity( new Intent(this, SearchView.class));
+    }
 }
 
